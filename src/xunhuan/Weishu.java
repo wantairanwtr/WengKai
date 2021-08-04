@@ -7,10 +7,10 @@ public class Weishu {
 		Scanner in =new Scanner(System.in);
 		int number=in.nextInt();
 		int count=0;
-		while(number>0) {
+		do{
 			number/=10;
 			count+=1;
-		}
+		}while(number>0);
 		System.out.println("Î»ÊıÎª:"+count);
 	}
 
